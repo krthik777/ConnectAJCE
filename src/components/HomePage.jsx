@@ -61,13 +61,13 @@ const HomePage = () => {
                             <img src="https://www.ajce.in/300x300png.png" alt="AJCE Logo" className="w-12 h-12" />
                             <div>
                                 <h1 className="text-lg font-bold text-gray-900">Connect <span className="text-blue-700">AJCE</span></h1>
-                                <p className="text-sm text-gray-500">Your Campus Travel Guide</p>
+                              {/*  <p className="text-sm text-gray-500">Your Campus Travel Guide</p> */}
                             </div>
                         </Link>
                         <div className="flex items-center gap-4">
                             <div className="text-right">
                                 <p className="text-sm font-semibold text-blue-700">An IEDC Initiative</p>
-                                <p className="text-xs text-gray-400">By Students, For You</p>
+                               {/* <p className="text-xs text-gray-400">By Students, For You</p> */}
                             </div>
                             <img src="https://iedcajce.in/images/FAVCON.png" alt="IEDC Logo" className="w-12 h-12" />
                         </div>
