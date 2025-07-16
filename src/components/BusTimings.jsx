@@ -29,10 +29,10 @@ const BusTimings = () => {
     (async () => {
       try {
         const res = await fetch(
-          `https://api.jsonbin.io/v3/b/${process.env.REACT_APP_JSONBIN_BINID}/latest`,
+          `https://api.jsonbin.io/v3/b/68781e50c7f29633ab29f43a/latest`,
           {
             headers: {
-              "X-Master-Key": process.env.REACT_APP_JSONBIN_API_KEY,
+              "X-Master-Key": '$2a$10$eyU92iI4Y9sDxFbxhxmdRecULv6HiZygpurEbxuXHWDjrbh4u9Afq',
             },
           }
         );
